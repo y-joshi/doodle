@@ -1,12 +1,9 @@
-import logo from './logo.svg';
+import Container from "./components/container/Container";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        Doodle!
-      </header>
-    </div>
+    <Container></Container>
   );
 }
 
