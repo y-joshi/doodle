@@ -4,6 +4,8 @@ import './styles.css'
 
 class Container extends React.Component 
 {
+    color = '#5d8fdf';
+
     constructor(props) {
         super(props)
     }
@@ -12,13 +14,17 @@ class Container extends React.Component
         return (
         <div className = "container">
             <div className="color-picker-container">
-                <input type="color"></input>
+                <input type="color" value={this.color} onChange={this.onInputChange} ></input>
             </div>
             <div className="board-container">
-                <Board></Board>
+                <Board color={this.color}></Board>
             </div>
         </div>
         )
+    }
+
+    onInputChange(event) {
+        this.color = event.target.value;
     }
 }
 
