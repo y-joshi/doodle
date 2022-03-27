@@ -1,0 +1,33 @@
+.container {
+    position: fixed;
+    height: 100%;
+    // min-width: 720px;
+    width: 100%;
+    @media(max-width: 720px) {        
+        width: 720px;
+    }
+}
+
+
+.color-picker-container {
+    text-align: center;
+}
+
+
+.user-board-container {
+    // width: 90%;
+    height: 90%;
+    margin: auto;
+    .container-item {
+        height: 70%;
+        margin: auto;
+        border: 1px solid black;
+        float: left;
+        margin: 1%;
+        width: 13%;
+    }
+    .board-container {
+        width: 60%;
+        margin-top: 1%;
+    }
+}

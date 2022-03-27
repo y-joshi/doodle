@@ -8,7 +8,7 @@ const broadcast = function(data, sender) {
         client.send(data)
       }
     })
-  }
+}
   
 
 
@@ -27,3 +27,4 @@ wss.on("connection", ws => {
 
 })
 
+console.log('server started...')

@@ -1,5 +1,5 @@
 import React from 'react'
-import './styles.css'
+import './styles.scss'
 import io from 'socket.io-client'
 
 class Board extends React.Component {

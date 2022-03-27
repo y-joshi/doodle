@@ -1,0 +1,18 @@
+.user {
+    height: 47px;
+    padding: 1%;
+    border-bottom: 1px solid black;
+
+    .user-fields {
+        margin: 1%;
+        height: 100%;
+    }
+    .metadata {
+        width: 60%;
+        float: left;
+    }
+    .image {
+        width: 33%;
+        float: left;
+    }
+}
